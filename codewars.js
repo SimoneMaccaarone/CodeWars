@@ -3,6 +3,12 @@
 
 
 
+function getAge(inputString){
+    if(inputString===0){
+    return `${inputString} year old`
+    }
+    return `${inputString} years old`
+}
 
 
 
@@ -12,6 +18,21 @@
 
 
 
+
+
+// //      FUNZIONE NUMERI RANDOMICI
+// function getAge(inputString){
+
+// let getAge = Math.floor(Math.random() * 10)+1;
+// if (getAge===1) {
+//     return `${getAge} year old`
+// }
+// return `${getAge} years old`
+// }
+
+// console.log(getAge());
+
+// console.log(Math.floor(Math.random() * 9)+1);
 //------------------------------------------------------------
 // function basicOp(operation, value1, value2){
 //   if (operation === '+') {
