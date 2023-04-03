@@ -1,10 +1,4 @@
 
-<<<<<<< Updated upstream
-=======
-function setAlarm(employed, vacation){
-if(employed)
-}
->>>>>>> Stashed changes
 
 
 
@@ -17,8 +11,6 @@ if(employed)
 
 
 
-
-<<<<<<< Updated upstream
 
 //------------------------------------------------------------
 // function basicOp(operation, value1, value2){
@@ -34,7 +26,6 @@ if(employed)
 // }
 //------------------------------------------------------------
 // // AREA QUADRATO e RETTANGOLO 
-=======
 //------------- area e perimetro -------------
 // var countSheep = function (num){
 //   //your code here
@@ -51,7 +42,6 @@ if(employed)
 
 
 //------------- area e perimetro -------------
->>>>>>> Stashed changes
 // const areaOrPerimeter = function(l , w) {
 //   // Return your answer
 // //   let squareArea = 0;
@@ -62,12 +52,9 @@ if(employed)
 //   }
 //   const squareArea = l*w;
 //   return squareArea;
-<<<<<<< Updated upstream
 // };
 // console.log(areaOrPerimeter(3,3))
-=======
         
 // };
 
 // console.log(areaOrPerimeter(3,4))
->>>>>>> Stashed changes
