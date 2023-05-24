@@ -1,47 +1,68 @@
 
-arr =[1,2,3] // 6
-arr2 =[-1,-2,-3] // 0
-arr3 = [-1,2,3,4,-5] //9
 
-function positiveSum(arr) {
-    const arrPositive=[]
 
-    for (let i= 0;i<arr.length;i++){
-        const element = arr[i];
 
-        if(element>0){
-            arrPositive.push(element)
-            console.log()
+let a=[2,3,4,5,34]
+console.log(a)
+let newArray = []
 
-            // if(arrPositive.length >=2){
-            //     console.log('arrPositive: ', arrPositive)
 
-            //     const result = arrPositive.reduce((a,b)=> a+b,0)
-             
-            //     return console.log('return result:',result)
 
-            // }else{
-
-            // }
-
-        }else{
-            return 0
-        }
-        
-    }
+for (let i = 0; i < a.length; i++) {
+    const element = a[i];
+    
+    let res = element+3
+    newArray.push(res)
 }
+console.log(newArray)
 
 
-  console.log('risultato funzione:',positiveSum(arr))
-
-
-
-
-
+const pippo = a.map(e=> e+3)
+console.log(pippo)
 
 
 
 
+
+
+
+
+
+
+// arr =[1,2,3] // 6
+// arr2 =[-1,-2,-3] // 0
+// arr3 = [-1,2,3,4,-5] //9
+
+// function positiveSum(arr) {
+//     const arrPositive=[]
+
+//     for (let i= 0;i<arr.length;i++){
+//         const element = arr[i];
+
+//         if(element>0){
+//             arrPositive.push(element)
+//             console.log()
+
+//             // if(arrPositive.length >=2){
+//             //     console.log('arrPositive: ', arrPositive)
+
+//             //     const result = arrPositive.reduce((a,b)=> a+b,0)
+             
+//             //     return console.log('return result:',result)
+
+//             // }else{
+
+//             // }
+
+//         }else{
+//             return 0
+//         }
+        
+//     }
+// }
+
+
+//   console.log('risultato funzione:',positiveSum(arr))
 
 
 
